@@ -10,7 +10,6 @@ body:
     attributes:
       value: |
         Thanks in advance for your suggestion!
-        ## Feature Request
   - type: textarea
     id: description
     attributes:
