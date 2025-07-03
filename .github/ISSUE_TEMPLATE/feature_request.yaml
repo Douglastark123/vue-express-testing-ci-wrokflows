@@ -1,0 +1,53 @@
+name: Feature Request
+about: Suggest a feature for this project
+title: '[Feat] '
+labels: enhancement
+assignees:
+  - Douglastark123
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks in advance for your suggestion!
+        ## Feature Request
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a clear and concise description of the feature you'd like to see implemented.
+      placeholder: Describe the feature here...
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Explain how this feature would be used and who would benefit from it.
+      placeholder: Describe the use case here...
+    validations:
+      required: false
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution or how you envision this feature working.
+      placeholder: Describe the proposed solution here...
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Alternatives Considered
+      description: Mention any alternative solutions or workarounds you've considered.
+      placeholder: Describe alternatives here...
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or examples about the feature request here.
+      placeholder: Add additional context, links, or drag and drop screenshots here...
+    validations:
+      required: false
