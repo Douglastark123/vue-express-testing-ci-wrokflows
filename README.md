@@ -82,7 +82,7 @@ We use **Trunk-Based Development** for managing our codebase:
 
 - **Main Branch (**`main`**)**: The `main` branch is the primary branch and should always be in a production-ready state.
 - **Supporting Branches**: Create branches off `main` for specific changes. These branches **should be short-lived** and merged back into `main` frequently via pull requests (PRs). Use the following branch types:
-  - `feature/<description>`: For new features or enhancements (e.g., `feature/add-user-auth`).
+  - `feat/<description>`: For new features or enhancements (e.g., `feature/add-user-auth`).
   - `fix/<description>`: For bug fixes or performance-related issues (e.g., `fix/login-bug` or `fix/slow-api-response`).
   - `chore/<description>`: For general maintenance tasks, such as updating dependencies or build tools (e.g., `chore/update-npm-packages`).
   - `ci/<description>`: For changes to CI/CD pipelines or configurations (e.g., `ci/add-github-actions-workflow`).
