@@ -1,9 +1,7 @@
 name: Documentation Issue
 about: Report issues or suggest improvements for project documentation
-title: '[Docs] '
+title: "[Docs] "
 labels: documentation
-assignees: ''
-
 body:
   - type: markdown
     attributes:

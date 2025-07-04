@@ -1,8 +1,6 @@
 name: Pull Request
-about: Submit changes to the project
-title: '[PR] '
-labels: ''
-assignees: ''
+description: Submit changes to the project
+title: "[PR] "
 
 body:
   - type: markdown
